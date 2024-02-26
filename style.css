@@ -186,6 +186,7 @@ p {
         width: 375px;
         border: none;
         border-radius: 0;
+        bottom: 0;
     }
 
     .attribution{
