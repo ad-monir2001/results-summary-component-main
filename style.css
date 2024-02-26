@@ -76,7 +76,7 @@ p {
 
 .summary {
     background: var(--White);
-    width: 300px;
+    width: 320px;
     padding: 1.5rem;
     box-shadow: 6px 6px 18px hsl(241, 100%, 89%);
     border-radius: 0 18px 18px 0;
@@ -99,7 +99,7 @@ p {
 }
 
 .test {
-    width: 90%;
+    width: 95%;
     padding: 10px 18px;
     border: none;
     border-radius: 10px;
@@ -122,6 +122,26 @@ p {
     background: var(--Cobalt-blue);
 }
 
+.texts{
+    display: flex;
+    gap: 8px;
+}
+.summary_text_red{
+    color: rgb(236, 115, 115);
+    font-weight: 600;
+}
+.summary_text_yellow{
+    color: rgb(231, 189, 111);
+    font-weight: 600;
+}
+.summary_text_green{
+    color: rgb(70, 153, 77);
+    font-weight: 600;
+}
+.summary_text_blue{
+    color: rgb(80, 102, 226);
+    font-weight: 600;
+}
 .btn {
     color: var(--White);
     background: var(--Dark-gray-blue);
@@ -130,6 +150,45 @@ p {
     display: inline-block;
     font-size: 18px;
     margin: 1rem 0;
-    width: 90%;
+    cursor: pointer;
+    width: 95%;
     border-radius: 18px;
+}
+
+@media screen and (max-width: 375px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        width: 375px;
+        position: relative;
+        top: -25px;
+        box-sizing: border-box;
+        
+    }
+
+    .result{
+        position: relative;
+        top: 15px;
+        width: 375px;
+        margin-left: 0;
+        border-radius: 0px 0px 30px 30px;
+        box-sizing: border-box;
+        right: 10px;
+        left: 0;
+    }
+
+    .summary{
+        box-sizing: border-box;
+        width: 375px;
+        border: none;
+        border-radius: 0;
+    }
+
+    .attribution{
+        display: none;
+    }
 }
