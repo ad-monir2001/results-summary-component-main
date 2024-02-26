@@ -1,132 +1,135 @@
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-  --White: hsl(0, 0%, 100%);
-  --Pale-blue: hsl(221, 100%, 96%);
-  --Light-lavender: hsl(241, 100%, 89%);
-  --Dark-gray-blue: hsl(224, 30%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
 
-  --Light-slate-blue-background: hsl(252, 100%, 67%);
-  --Light-royal-blue-background: hsl(241, 81%, 54%);
-  --Violet-blue-circle: hsla(256, 72%, 46%, 1);
-  --Persian-blue-circle: hsla(241, 72%, 46%, 0);
+    --Light-slate-blue-background: hsl(252, 100%, 67%);
+    --Light-royal-blue-background: hsl(241, 81%, 54%);
+    --Violet-blue-circle: hsla(256, 72%, 46%, 1);
+    --Persian-blue-circle: hsla(241, 72%, 46%, 0);
 
-  --Light-red: hsl(0, 100%, 93%);
-  --Orangey-yellow: hsl(39, 100%, 93%);
-  --Green-teal: hsl(166, 100%, 93%);
-  --Cobalt-blue: hsl(234, 85%, 93%);
+    --Light-red: hsl(0, 100%, 93%);
+    --Orangey-yellow: hsl(39, 100%, 93%);
+    --Green-teal: hsl(166, 100%, 93%);
+    --Cobalt-blue: hsl(234, 85%, 93%);
 
-  --font: "Hanken Grotesk", sans-serif;
+    --font: "Hanken Grotesk", sans-serif;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: var(--font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
 }
 
 p {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  margin: 20% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 20% auto;
 }
 
 .result {
-  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-  width: 300px;
-  text-align: center;
-  color: var(--White);
-  border-radius: 18px;
-  padding: 2.5rem 3.5rem;
-  position: relative;
-  left: 10px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 300px;
+    text-align: center;
+    color: var(--White);
+    border-radius: 18px;
+    padding: 2.5rem 3.5rem;
+    position: relative;
+    left: 10px;
 }
 
 .result .circle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 150px;
-  margin: 1rem auto;
-  height: 150px;
-  border-radius: 150px;
-  background: linear-gradient(hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    margin: 1rem auto;
+    height: 150px;
+    border-radius: 150px;
+    background: linear-gradient(hsl(241, 81%, 54%), hsl(252, 100%, 67%));
 }
 
 .result .circle h1 {
-  font-size: 50px;
+    font-size: 50px;
 }
 
 .result .circle p {
-  color: var(--Light-lavender);
+    color: var(--Light-lavender);
 }
 
 .result p {
-  color: var(--Light-lavender);
-  margin: 0.8rem 0;
+    color: var(--Light-lavender);
+    margin: 0.8rem 0;
 }
 
 .summary {
-  background: var(--White);
-  width: 300px;
-  padding: 1.5rem;
-  box-shadow: 6px 6px 18px hsl(241, 100%, 89%);
-  border-radius: 0 18px 18px 0;
+    background: var(--White);
+    width: 300px;
+    padding: 1.5rem;
+    box-shadow: 6px 6px 18px hsl(241, 100%, 89%);
+    border-radius: 0 18px 18px 0;
 }
 
 .summary .test {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .summary h3 {
-  font-size: 25px;
-  margin-bottom: 1.5rem;
+    font-size: 25px;
+    margin-bottom: 1.5rem;
 }
 
 .bold {
-  color: var(--Dark-gray-blue);
-  font-weight: 800;
+    color: var(--Dark-gray-blue);
+    font-weight: 800;
 }
 
 .test {
-  width: 90%;
-  padding: 10px 18px;
-  border: none;
-  border-radius: 10px;
-  margin: 15px 0;
+    width: 90%;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    margin: 15px 0;
 }
 
 .red_background {
-  background: var(--Light-red);
+    background: var(--Light-red);
 }
+
 .yellow_background {
-  background: var(--Orangey-yellow);
+    background: var(--Orangey-yellow);
 }
+
 .green_background {
-  background: var(--Green-teal);
+    background: var(--Green-teal);
 }
+
 .blue_background {
-  background: var(--Cobalt-blue);
+    background: var(--Cobalt-blue);
 }
 
 .btn {
-  color: var(--White);
-  background: var(--Dark-gray-blue);
-  padding: 10px 18px;
-  border: none;
-  display: inline-block;
-  font-size: 18px;
-  margin: 1rem 0;
-  width: 90%;
-  border-radius: 18px;
+    color: var(--White);
+    background: var(--Dark-gray-blue);
+    padding: 10px 18px;
+    border: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 1rem 0;
+    width: 90%;
+    border-radius: 18px;
 }
